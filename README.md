@@ -6,9 +6,8 @@ A React frontend for the E-Commerce API built with Vite and React Router.
 
 ## 🚀 Live Demo
 
-- **Frontend:** coming soon
+- **Frontend:** https://ecommerce-frontend-xi-sage.vercel.app
 - **Backend API:** [E-Commerce API](https://github.com/Nick0099/E_Commerce)
-
 ---
 
 ## 🛠️ Tech Stack
