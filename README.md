@@ -22,6 +22,7 @@ A React frontend for the E-Commerce API built with Vite and React Router.
 ---
 
 ## 📂 Project Structure
+```
 src/
 ├── api/
 │   └── axios.js        # Configured axios instance with JWT interceptors
@@ -36,7 +37,7 @@ src/
 │   └── Navbar.jsx
 ├── App.jsx             # Routes and private route protection
 └── main.jsx
-
+```
 ---
 
 ## ✨ Features
