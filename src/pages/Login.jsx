@@ -12,7 +12,7 @@ export default function Login() {
   const submit = async (e) => {
     e.preventDefault()
     try {
-      const res = await axios.post('http://localhost:8000/api/auth/login/', form)
+      const res = await axios.post(`${import.meta.env.VITE_API_URL}/auth/login/`, form)
       localStorage.setItem('access', res.data.access)
       localStorage.setItem('refresh', res.data.refresh)
       navigate('/products')

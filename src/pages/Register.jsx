@@ -12,7 +12,7 @@ export default function Register() {
   const submit = async (e) => {
     e.preventDefault()
     try {
-      await axios.post('http://localhost:8000/api/auth/register/', form)
+      await axios.post(`${import.meta.env.VITE_API_URL}/auth/register/`, form)
       navigate('/login')
     } catch (err) {
       setError(JSON.stringify(err.response?.data))
